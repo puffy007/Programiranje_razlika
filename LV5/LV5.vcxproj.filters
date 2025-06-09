@@ -13,30 +13,33 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="Source Files\Skupine">
+      <UniqueIdentifier>{f68a3519-b139-4a4f-b888-baa7384617a6}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\..\..\..\..\..\Desktop\LV5\LV5\LV5\Main.c">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\..\..\..\..\Desktop\LV5\LV5\LV5\skupina_a.c">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\..\..\..\..\Desktop\LV5\LV5\LV5\skupina_b.c">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\..\..\..\..\Desktop\LV5\LV5\LV5\skupina_c.c">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\..\..\..\..\Desktop\LV5\LV5\LV5\skupina_d.c">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\..\..\..\..\Desktop\LV5\LV5\LV5\skupina_e.c">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="..\..\..\..\..\..\..\Desktop\LV5\LV5\LV5\skupina.h">
+    <ClInclude Include="skupina.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="skupina_a.c">
+      <Filter>Source Files\Skupine</Filter>
+    </ClCompile>
+    <ClCompile Include="skupina_b.c">
+      <Filter>Source Files\Skupine</Filter>
+    </ClCompile>
+    <ClCompile Include="skupina_c.c">
+      <Filter>Source Files\Skupine</Filter>
+    </ClCompile>
+    <ClCompile Include="skupina_d.c">
+      <Filter>Source Files\Skupine</Filter>
+    </ClCompile>
+    <ClCompile Include="skupina_e.c">
+      <Filter>Source Files\Skupine</Filter>
+    </ClCompile>
+    <ClCompile Include="Main.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

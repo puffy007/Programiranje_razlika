@@ -127,15 +127,15 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\..\..\..\..\..\Desktop\LV5\LV5\LV5\Main.c" />
-    <ClCompile Include="..\..\..\..\..\..\..\Desktop\LV5\LV5\LV5\skupina_a.c" />
-    <ClCompile Include="..\..\..\..\..\..\..\Desktop\LV5\LV5\LV5\skupina_b.c" />
-    <ClCompile Include="..\..\..\..\..\..\..\Desktop\LV5\LV5\LV5\skupina_c.c" />
-    <ClCompile Include="..\..\..\..\..\..\..\Desktop\LV5\LV5\LV5\skupina_d.c" />
-    <ClCompile Include="..\..\..\..\..\..\..\Desktop\LV5\LV5\LV5\skupina_e.c" />
+    <ClInclude Include="skupina.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\..\..\..\..\..\..\Desktop\LV5\LV5\LV5\skupina.h" />
+    <ClCompile Include="Main.c" />
+    <ClCompile Include="skupina_a.c" />
+    <ClCompile Include="skupina_b.c" />
+    <ClCompile Include="skupina_c.c" />
+    <ClCompile Include="skupina_d.c" />
+    <ClCompile Include="skupina_e.c" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
